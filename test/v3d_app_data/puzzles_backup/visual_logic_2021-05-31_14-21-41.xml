@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="922.1267089843749" scrolly="434.53387451171875" scale="1"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="875" scrolly="430.4999999999999" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="n:[54CY_,GrjlINJiBm~" x="-730" y="-330">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="LC3$GW#%3^]S*@!x-Kri">
+          <field name="FIELDNAME">Box</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="NxL7Fl)W88bn_pF_]|18">
+          <value name="VALUE">
+            <shadow type="objectList" id="h%Ll5jM%ZR45.(Xl#=54">
+              <field name="FIELDNAME">Box</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1127" viewport-y="43" viewport-w="768" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

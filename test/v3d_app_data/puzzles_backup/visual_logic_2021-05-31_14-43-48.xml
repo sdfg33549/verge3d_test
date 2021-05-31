@@ -1,0 +1,87 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="922.1267089843749" scrolly="434.53387451171875" scale="1"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="956.49003801457" scrolly="527.7569934686724" scale="0.99225">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="62HM5(xZ*_yiqt+$+AUQ" x="-750" y="-410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="C,73]Y#zC`yTVoPsCc5y">
+          <field name="FIELDNAME">Sphere_paint_black</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="hKq8OQ|$TYaqfQv:VR|a">
+          <value name="VALUE2">
+            <shadow type="materialList" id="wo6dVG=BZoTcZPWf^ZHV">
+              <field name="FIELDNAME">paint_black</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="%mvC6|+QnI7eq#dPdUzq">
+              <field name="FIELDNAME">legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="?!:_=8PZ1QF12tksOkhR" x="-750" y="-290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="GsYA3eIok(V`RE}9`a1W">
+          <field name="FIELDNAME">Sphere_chrome</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="@7f]f+WA9J*b^+ps6_1c">
+          <value name="VALUE2">
+            <shadow type="materialList" id="+.tUtQ8`3iIhGee+(1Fb">
+              <field name="FIELDNAME">chrome</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="=vlO)Z^b4+O$k~%j21c9">
+              <field name="FIELDNAME">legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="?o_qr.ifD_nzc0QazJH^" x="-750" y="-170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="?`V0:`x;G*rzIN}9i)%|">
+          <field name="FIELDNAME">Sphere_paint_white</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=")6G{y%L.-.|l?4q62t.-">
+          <value name="VALUE2">
+            <shadow type="materialList" id="MbhnD6/=ry~ePUK].B]O">
+              <field name="FIELDNAME">paint_white</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="%u=G|V@zb`@0Sd/A$e%f">
+              <field name="FIELDNAME">legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1127" viewport-y="43" viewport-w="768" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
